@@ -13,7 +13,7 @@ def fit_preprocessing(data):
 
     data = data.copy()
 
-    features = ['location', 'subscription_type', 'payment_plan', 'payment_method', 'customer_service_inquiries']
+    features = data.select_dtypes(include=['str']).columns.tolist()
 
     # encoding
     encoders = {}
@@ -46,7 +46,7 @@ def transform_preprocessor(data, encoders, scaler):
 
     data = data.copy()
 
-    features = ['location', 'subscription_type', 'payment_plan', 'payment_method', 'customer_service_inquiries']
+    features = data.select_dtypes(include=['str']).columns.tolist()
 
     for feature in features:
         encoder = encoders[feature]
