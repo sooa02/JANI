@@ -1,14 +1,39 @@
+from sklearn.linear_model import LogisticRegression
 from catboost import Pool, CatBoostClassifier
+from sklearn.svm import SVC
 from xgboost import XGBClassifier
 from lightgbm import LGBMClassifier, early_stopping
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, f1_score, roc_auc_score
 
+# LogisticRegression 모델 정의 및 학습 함수
+def train_logreg(X_tr, y_tr):
+
+    model = LogisticRegression()
+    model.fit(X_tr, y_tr)
+
+    return model
+
+
+# SVM 모델 정의 및 학습 함수
+def train_SVM(X_tr, y_tr):
+    model = SVC(
+        kernel='rbf',
+        gamma='scale',
+        probability=True,
+        random_state=42,
+    )
+
+    model.fit(X_tr, y_tr)
+
+    return model
+
+
 # CatBoost 모델 정의 및 학습 함수
 def train_cat(X_tr, y_tr, X_val, y_val):
 
     # 0. 범주형 컬럼 이용해서 Pool 객체 만듦.
-    cat_features = ['location', 'subscription_type', 'payment_plan', 'payment_method', 'customer_service_inquiries']
+    cat_features = X_tr.select_dtypes(include=['str']).columns.tolist()
     train_pool = Pool(X_tr, y_tr, cat_features=cat_features)
     val_pool = Pool(X_val, y_val, cat_features=cat_features)
 
@@ -142,6 +167,8 @@ def predict_and_score(model, X, y):
 def compare_models(X_tr, X_tr_prep, X_val, X_val_prep, y_tr, y_val):
     models = []
 
+    models.append(train_logreg(X_tr_prep, y_tr))
+    models.append(train_SVM(X_tr_prep, y_tr))
     models.append(train_cat(X_tr, y_tr, X_val, y_val))
     models.append(train_xgb(X_tr_prep, y_tr, X_val_prep, y_val))
     models.append(train_lgbm(X_tr_prep, y_tr, X_val_prep, y_val))
