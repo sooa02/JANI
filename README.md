@@ -25,31 +25,6 @@
             <a href="https://github.com/JiyounKim-EllyKim">@JiyounKim</a>
           </td>
         </tr>
-        <tr>
-          <td align="center" height="36">✨ 역할</td>
-        </tr>
-      </table>
-    </td>
-    <td align="center" width="125" valign="top">
-      <table align="center" width="105">
-        <tr>
-          <td align="center" height="120">
-            <img src="https://i.namu.wiki/i/QTEA2y9Z3YSbwNh_RpglbT9Q-yVBCAhEBcnr_GmUhWoR6DbuZNr5CfFEWS5C2qd0pBcZ-KpvCQFehPMUXZdriQ.webp"
-                 width="70" height="95"
-                 style="object-fit:contain;">
-          </td>
-        </tr>
-        <tr>
-          <td align="center" height="36"><b>이레</b></td>
-        </tr>
-        <tr>
-          <td align="center" height="44">
-            <a href="https://github.com/leere2424">@leere2424</a>
-          </td>
-        </tr>
-        <tr>
-          <td align="center" height="36">✨ 역할</td>
-        </tr>
       </table>
     </td>
     <td align="center" width="125" valign="top">
@@ -68,9 +43,6 @@
           <td align="center" height="44">
             <a href="https://github.com/ParkMinseon22">@ParkMinseon22</a>
           </td>
-        </tr>
-        <tr>
-          <td align="center" height="36">✨ 역할</td>
         </tr>
       </table>
     </td>
@@ -91,10 +63,8 @@
             <a href="https://github.com/parksoyun9084-cloud">@parksoyun</a>
           </td>
         </tr>
-        <tr>
-          <td align="center" height="36">✨ 역할</td>
-        </tr>
       </table>
+    </td>
     </td>
     <td align="center" width="125" valign="top">
       <table align="center" width="105">
@@ -113,11 +83,26 @@
             <a href="https://github.com/jjhhyy0926">@jjhhyy0926</a>
           </td>
         </tr>
-        <tr>
-          <td align="center" height="36">✨ 역할</td>
-        </tr>
       </table>
     </td>
+    <td align="center" width="125" valign="top">
+      <table align="center" width="105">
+        <tr>
+          <td align="center" height="120">
+            <img src="https://i.namu.wiki/i/QTEA2y9Z3YSbwNh_RpglbT9Q-yVBCAhEBcnr_GmUhWoR6DbuZNr5CfFEWS5C2qd0pBcZ-KpvCQFehPMUXZdriQ.webp"
+                 width="70" height="95"
+                 style="object-fit:contain;">
+          </td>
+        </tr>
+        <tr>
+          <td align="center" height="36"><b>이레</b></td>
+        </tr>
+        <tr>
+          <td align="center" height="44">
+            <a href="https://github.com/leere2424">@leere2424</a>
+          </td>
+        </tr>
+      </table>
     <td align="center" width="125" valign="top">
       <table align="center" width="105">
         <tr>
@@ -135,17 +120,65 @@
             <a href="https://github.com/sooa02">@sooa02</a>
           </td>
         </tr>
-        <tr>
-          <td align="center" height="36">✨ 역할</td>
-        </tr>
       </table>
     </td>
   </tr>
 </table>
 
+<table align="center" width="100%" style="border-collapse: collapse; text-align: center;">
+  <tr>
+    <th style="border:1px solid #d0d7de; padding:12px; background-color:#f6f8fa;">이름</th>
+    <th style="border:1px solid #d0d7de; padding:12px; background-color:#f6f8fa;">역할</th>
+  </tr>
+
+  <tr>
+    <td style="border:1px solid #d0d7de; padding:12px;"><b>김지윤</b></td>
+    <td style="border:1px solid #d0d7de; padding:12px; text-align:left;">
+      Engagement 기반 RFM 테이블 설계 및 구축, 데이터 전처리 함수 모듈화, 분류 모델 비교 모듈 설계, K-means 클러스터링 수행, 군집별 사용자 행동 특성 분석 및 인사이트 도출
+    </td>
+  </tr>
+
+  <tr>
+    <td style="border:1px solid #d0d7de; padding:12px;"><b>박민선</b></td>
+    <td style="border:1px solid #d0d7de; padding:12px; text-align:left;">
+      예측 모델 설계, 상관관계 기반 가설 분석, Streamlit 대시보드 시각화 구현
+    </td>
+  </tr>
+
+  <tr>
+    <td style="border:1px solid #d0d7de; padding:12px;"><b>박소윤</b></td>
+    <td style="border:1px solid #d0d7de; padding:12px; text-align:left;">
+      데이터 전처리 및 EDA, 주 단위 시계열 기반 고객 이탈률 지표 설계, 지리적 정 기반 데이터 시각화 및 지역별 이탈 현황 분석, 머신러닝 하이퍼파라미터 튜닝을 통한 이탈 예측 모델 최적화 및 고도화, 분석 프로세스 논리 구조화 및 인사이트 도출 기반 발표 PPT 제작
+    </td>
+  </tr>
+
+  <tr>
+    <td style="border:1px solid #d0d7de; padding:12px;"><b>윤지혜</b></td>
+    <td style="border:1px solid #d0d7de; padding:12px; text-align:left;">
+      EDA 기반 가설 검증 시각화 분석, 분류 모델 성능 비교를 통한 최적 모델 선정, 하이퍼파라미터 튜닝을 통한 모델 성능 최적화
+    </td>
+  </tr>
+
+  <tr>
+    <td style="border:1px solid #d0d7de; padding:12px;"><b>이레</b></td>
+    <td style="border:1px solid #d0d7de; padding:12px; text-align:left;">
+      주제 기획 및 제안, 가설 설정, 데이터 EDA 수행 및 분석 방향 도출, 이탈 예측 모델 설계 및 학습 결과 취합, RFM 테이블 설계 및 데이터 전처리, 클러스터링 함수 모듈화 및 코드 구조 정리, AI 모델 학습 결과서 작성
+    </td>
+  </tr>
+
+  <tr>
+    <td style="border:1px solid #d0d7de; padding:12px;"><b>최수아</b></td>
+    <td style="border:1px solid #d0d7de; padding:12px; text-align:left;">
+      웹 크롤링 설계 및 구현, 데이터 수집·전처리·정제
+    </td>
+  </tr>
+
+</table>
+
+
 ---
 
-## 실행 환경 (Environment)
+# 실행 환경 (Environment)
 
 - Python 3.10+ ⇒ 
   - Streamlit 1.30+
@@ -535,3 +568,73 @@ IQR 기준 탐색에서는 별도의 극단치가 확인되지 않았다. 이는
     - `subscription_type`
     - `customer_service_inquiries`
 - 선형 모델/신경망 계열에는 범주형 인코딩 + 수치형 스케일링을 추가 적용하는 것이 바람직하다.
+
+---
+
+# 인공지능 학습 결과서
+
+본 문서는 음악 스트리밍 서비스 사용자 데이터를 기반으로 구독 이탈 예측 모델을 학습하고 성능을 비교한 결과를 정리한 것이다.  
+여러 머신러닝 모델을 이용하여 baseline 성능을 비교하고, 이후 Boosting 기반 모델을 중심으로 하이퍼파라미터 튜닝을 수행하였다.  
+각 모델의 Accuracy, F1-score, ROC-AUC를 기반으로 성능을 분석하고 최종 모델을 선정하였다.
+
+---
+
+## Baseline Model Comparison
+
+먼저 다양한 머신러닝 모델을 사용하여 **baseline 성능 비교**를 진행하였다.
+
+### Test Performance
+
+| Model | Accuracy | F1 | ROC-AUC |
+|------|------|------|------|
+| LogisticRegression | 0.680 | 0.691 | 0.752 |
+| SVC | 0.789 | 0.796 | 0.875 |
+| CatBoost | <strong><span style="color:#e74c3c">0.849</span></strong> | <strong><span style="color:#e74c3c">0.851</span></strong> | <strong><span style="color:#e74c3c">0.942</span></strong> |
+| XGBoost | <strong><span style="color:#e74c3c">0.849</span></strong> | <strong><span style="color:#e74c3c">0.852</span></strong> | <strong><span style="color:#e74c3c">0.942</span></strong> |
+| LightGBM | <strong><span style="color:#e74c3c">0.849</span></strong> | <strong><span style="color:#e74c3c">0.852</span></strong> | <strong><span style="color:#e74c3c">0.942</span></strong> |
+| RandomForest | 0.814 | 0.818 | 0.900 |
+
+Baseline 비교 결과 **Gradient Boosting 계열 모델(CatBoost, XGBoost, LightGBM)** 이 가장 높은 성능을 보였다.  
+따라서 해당 모델들을 중심으로 **하이퍼파라미터 튜닝을 진행하였다.**
+
+---
+
+## Hyperparameter Tuning
+
+Boosting 모델에 대해 **HyperOpt 기반 Bayesian Optimization (TPE)** 을 이용하여  
+하이퍼파라미터 탐색을 진행하였다.
+
+### Final Performance
+
+| Model | Accuracy | F1 |
+|------|------|------|
+| XGBoost | <strong><span style="color:red">**0.8485**</span></strong> | <strong><span style="color:red">**0.8484**</span></strong>| 
+| LightGBM | 0.8476 | 0.8473 |
+| CatBoost | 0.8471 | 0.8470 |
+
+세 모델 모두 약 **0.85 수준의 Accuracy와 F1-score**를 기록하며 매우 유사한 성능을 보였다.
+
+---
+
+## ROC Curve Comparison
+
+<p align="center">
+<img src="models_roc.png" width="550">
+</p>
+
+세 모델 모두 **ROC-AUC 약 0.94 수준의 높은 분류 성능**을 보였다.
+
+| Model | ROC-AUC |
+|------|------|
+| XGBoost | <strong><span style="color:red">0.9421</span></strong>|
+| LightGBM | 0.9415 |
+| CatBoost | 0.9385 |
+
+---
+
+## Final Model Selection
+
+튜닝 결과 세 Boosting 모델은 모두 유사한 성능을 보였으며,  
+그 중 **XGBoost 모델이 가장 높은 성능을 기록하였다.**
+
+따라서 본 프로젝트의 **최종 모델은 XGBoost로 선정하였다.**
